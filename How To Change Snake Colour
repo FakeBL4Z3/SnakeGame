@@ -1,0 +1,13 @@
+Hey! If you want to change your snake's colour. I'll teach you.
+
+First, open you VSC and go to line 13, you'll see the next code:
+  pygame.draw.rect(self.window, (40, 114, 51), (self.x, self.y, 10, 10))
+    (40, 114, 51) is the RGB code, in this case, green.
+  
+The numbers (40, 114, 51) are an RGB code, in this case, green.
+You only need to search the code of the colour you want, for example blue, and change it.
+
+The result should be something like this: pygame.draw.rect(self.window, (0, 0, 255), (self.x, self.y, 10, 10))
+  (0, 0, 255) is the RGB code.
+  
+And it's done! Now you can change your snake's colour!
